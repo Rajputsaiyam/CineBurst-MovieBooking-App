@@ -6,6 +6,8 @@ import MoviesPage from './pages/MoviesPage';
 import MovieDetailPage from './pages/MovieDetailPage';
 import TheatresPage from './pages/TheatresPage';
 import TheatreDetailPage from './pages/TheatreDetailPage';
+import SignUpPage from './pages/SignUpPage';
+import SignInPage from './pages/SignInPage';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/movies/:id" element={<MovieDetailPage />} />
           <Route path="/theatres" element={<TheatresPage />} />
           <Route path="/theatres/:id" element={<TheatreDetailPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/signin" element={<SignInPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </main>
