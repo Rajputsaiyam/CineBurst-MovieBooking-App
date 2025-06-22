@@ -210,7 +210,7 @@ const Navbar = () => {
               </button>
               
               <Link
-                to="/login"
+                to="/signin"
                 className="flex items-center space-x-2 group"
               >
                 <div className="h-9 w-9 rounded-full border-2 border-gray-600 flex items-center justify-center group-hover:border-white transition-colors">

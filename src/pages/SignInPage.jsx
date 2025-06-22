@@ -33,7 +33,7 @@ const SignInPage = () => {
       if (response.status === 200) {
         // Save token if returned (optional)
         // localStorage.setItem('token', response.data.token);
-        navigate('/dashboard'); // Redirect to dashboard or homepage
+        navigate('/'); // Redirect to dashboard or homepage
       } else {
         setError(response.data.message || 'Login failed');
       }
